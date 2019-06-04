@@ -13,7 +13,7 @@ def files
 end
 
 def import
-  files.each {|file| Song.new_by_filename(file)}
+  files.each {|file| Song.new_by_filename(file)} #iterates over files and imports them to the library by creating songs from a filename
 end
 
 
